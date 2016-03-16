@@ -20,5 +20,4 @@ if $PROGRAM_NAME == __FILE__
   open(ENV['HOME']+'/projects/contributors.csv', 'a') { |f|
     f.puts Finder.new(repo_name).all_contributors
   }
-  ## puts Finder.new(repo_name).all_contributors
 end
